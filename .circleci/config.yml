@@ -39,7 +39,3 @@ jobs:
 
       # run tests!
       - run: mvn integration-test
-
-      # store results!
-      - store_test_results:
-          path: target/test-results
