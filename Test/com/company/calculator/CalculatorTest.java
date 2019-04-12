@@ -26,4 +26,10 @@ public class CalculatorTest {
         assertEquals(4.0, calculator.makeCalculation(6.0, 2.0, "subtract"));
     }
 
+    //Test 3
+    @Test
+    public void multipliesTwoNumbers() {
+        assertEquals(12.0, calculator.makeCalculation(6.0, 2.0, "multiply"));
+    }
+
 }
