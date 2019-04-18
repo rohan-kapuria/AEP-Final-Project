@@ -53,4 +53,10 @@ public class CalculatorTest {
         }
     }
 
+    //Test 7
+    @Test
+    public void aRaiseToB() {
+        assertEquals(4.0, calculator.makeCalculation(2.0, 2, "raiseTo"));
+    }
+
 }
