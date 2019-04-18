@@ -3,6 +3,9 @@ package com.company.calculator;
 import java.util.HashMap;
 import java.util.Map;
 
+//Understands the operations allowed
+
+
 public class Calculator {
     private Map<String, TwoNumberOperation> operationMap = new HashMap<String, TwoNumberOperation>();
     private Map<String, SingleNumberOperation> operationMap2 = new HashMap<String, SingleNumberOperation>();

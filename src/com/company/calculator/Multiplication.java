@@ -1,5 +1,7 @@
 package com.company.calculator;
 
+//Understands how to multiply x by y
+
 public class Multiplication implements TwoNumberOperation {
 
 //    @Override

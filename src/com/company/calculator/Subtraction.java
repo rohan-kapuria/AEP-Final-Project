@@ -1,10 +1,11 @@
 package com.company.calculator;
 
+//understands how to subtract y from x
+
 public class Subtraction implements TwoNumberOperation {
 
-    @Override
-    public double calculateResult(double left, double right) {
-        return left - right;
+    public double calculateResult(double x, double y) {
+        return x - y;
     }
 
 }

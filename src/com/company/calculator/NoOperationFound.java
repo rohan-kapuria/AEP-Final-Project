@@ -2,6 +2,8 @@ package com.company.calculator;
 
 import java.util.InputMismatchException;
 
+//Understands invalid operations
+
 public class NoOperationFound implements TwoNumberOperation, SingleNumberOperation {
 
     private String sign;
@@ -9,12 +11,12 @@ public class NoOperationFound implements TwoNumberOperation, SingleNumberOperati
         this.sign = sign;
     }
 
-    @Override
+
     public double calculateResult(double left, double right) {
         throw new InputMismatchException("Invalid operator sign: " + sign);
     }
 
-    @Override
+
     public double calculateResult(double left) {
         throw new InputMismatchException("Invalid operator sign: " + sign);
     }

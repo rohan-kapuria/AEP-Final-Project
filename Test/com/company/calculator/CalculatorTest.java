@@ -19,13 +19,13 @@ public class CalculatorTest {
         assertEquals(8.0, calculator.makeCalculation(6.0,2.0,"add"));
     }
 
-/*
+
     //Test 2
     @Test
     public void subtractsTwoNumbers() {
         assertEquals(4.0, calculator.makeCalculation(6.0, 2.0, "subtract"));
     }
-
+/*
     //Test 3
     @Test
     public void multipliesTwoNumbers() {

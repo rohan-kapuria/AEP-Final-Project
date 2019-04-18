@@ -1,8 +1,10 @@
 package com.company.calculator;
 
+//Understands how to calculate nth root of a number
+
 public class nThRoot implements TwoNumberOperation {
 
-    @Override
+
     public double calculateResult(double x, double y) {
 
         if(x < 0)
