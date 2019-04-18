@@ -70,6 +70,11 @@ public class CalculatorTest {
     public void cubeNumber() {
         assertEquals(8.0, calculator.makeCalculation(2.0, "cube"));
     }
-
+    
+    //Test 10
+    @Test
+    public void nThRoot() {
+        assertEquals(2.0, calculator.makeCalculation(4.0,2.0, "nthroot"));
+    }
 
 }
