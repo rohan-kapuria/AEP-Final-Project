@@ -14,10 +14,4 @@ public class CalculatorTest {
     }
 
 
-    //Test 2
-    @Test
-    public void subtractsTwoNumbers() {
-        assertEquals(4.0, calculator.makeCalculation(6.0, 2.0, "subtract"));
-    }
-
 }
