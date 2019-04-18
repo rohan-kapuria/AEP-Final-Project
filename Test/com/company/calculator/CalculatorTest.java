@@ -19,5 +19,5 @@ public class CalculatorTest {
     public void subtractsTwoNumbers() {
         assertEquals(4.0, calculator.makeCalculation(6.0, 2.0, "subtract"));
     }
-    
+
 }
