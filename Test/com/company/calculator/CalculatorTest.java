@@ -59,4 +59,10 @@ public class CalculatorTest {
         assertEquals(4.0, calculator.makeCalculation(2.0, 2, "raiseTo"));
     }
 
+    //Test 8
+    @Test
+    public void squareNumber() {
+        assertEquals(4.0, calculator.makeCalculation(2.0, "square"));
+    }
+
 }
