@@ -65,4 +65,11 @@ public class CalculatorTest {
         assertEquals(4.0, calculator.makeCalculation(2.0, "square"));
     }
 
+    //Test 9
+    @Test
+    public void cubeNumber() {
+        assertEquals(8.0, calculator.makeCalculation(2.0, "cube"));
+    }
+
+
 }
