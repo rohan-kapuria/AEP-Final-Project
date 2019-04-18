@@ -19,27 +19,5 @@ public class CalculatorTest {
     public void subtractsTwoNumbers() {
         assertEquals(4.0, calculator.makeCalculation(6.0, 2.0, "subtract"));
     }
-
-/*    //Test 3
-    @Test
-    public void multipliesTwoNumbers() {
-        assertEquals(12.0, calculator.makeCalculation(6.0, 2.0, "multiply"));
-    }
-
-    //Test 4
-    @Test
-    public void dividesTwoNumbers() {
-        assertEquals(3.0, calculator.makeCalculation(6.0, 2.0, "divide"));
-    }
-
-    //Test 5
-    @Test
-    public void divideByZero() {
-        try{
-            assertEquals(3.0, calculator.makeCalculation(6.0, 0, "divide"));
-        } catch (IllegalArgumentException e){
-            System.out.println(e);
-        }
-    }*/
-
+    
 }
