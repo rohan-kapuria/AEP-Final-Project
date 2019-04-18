@@ -2,6 +2,8 @@ package com.company.calculator;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.InputMismatchException;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatorTest {
@@ -37,6 +39,16 @@ public class CalculatorTest {
         try{
             assertEquals(3.0, calculator.makeCalculation(6.0, 0, "divide"));
         } catch (IllegalArgumentException e){
+            System.out.println(e);
+        }
+    }
+
+    //Test 6
+    @Test
+    public void illegalOperator() {
+        try {
+            assertEquals(8.0, calculator.makeCalculation(6.0, 2.0, "Abcd"));
+        }catch (InputMismatchException e){
             System.out.println(e);
         }
     }
