@@ -2,12 +2,6 @@ package com.company.calculator;
 
 import org.junit.jupiter.api.Test;
 
-//import org.junit.Test;
-
-import java.util.InputMismatchException;
-
-//import static org.junit.Assert.assertEquals;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatorTest {
@@ -25,8 +19,8 @@ public class CalculatorTest {
     public void subtractsTwoNumbers() {
         assertEquals(4.0, calculator.makeCalculation(6.0, 2.0, "subtract"));
     }
-/*
-    //Test 3
+
+/*    //Test 3
     @Test
     public void multipliesTwoNumbers() {
         assertEquals(12.0, calculator.makeCalculation(6.0, 2.0, "multiply"));
@@ -46,7 +40,6 @@ public class CalculatorTest {
         } catch (IllegalArgumentException e){
             System.out.println(e);
         }
-    }
-    */
+    }*/
 
 }
