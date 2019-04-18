@@ -1,5 +1,7 @@
 package com.company.calculator;
 
+//Understands how to add two numbers
+
 public class Addition implements TwoNumberOperation {
 
     @Override
